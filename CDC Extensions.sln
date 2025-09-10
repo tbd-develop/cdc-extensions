@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TbdDevelop.CDC.SqlServer", "TbdDevelop.CDC.SqlServer\TbdDevelop.CDC.SqlServer.csproj", "{19FDF940-9550-4894-9C9B-AFF08E492C2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TbdDevelop.CDC.SqlServer", "src\TbdDevelop.CDC.SqlServer\TbdDevelop.CDC.SqlServer.csproj", "{889A006A-1A89-4447-8000-A54E66B66D3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{19FDF940-9550-4894-9C9B-AFF08E492C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19FDF940-9550-4894-9C9B-AFF08E492C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19FDF940-9550-4894-9C9B-AFF08E492C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19FDF940-9550-4894-9C9B-AFF08E492C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889A006A-1A89-4447-8000-A54E66B66D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889A006A-1A89-4447-8000-A54E66B66D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889A006A-1A89-4447-8000-A54E66B66D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889A006A-1A89-4447-8000-A54E66B66D3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
