@@ -1,0 +1,5 @@
+﻿CREATE TABLE cdc.CdcCheckpoints (
+    TableName NVARCHAR(128) PRIMARY KEY,
+    LastProcessedLsn BINARY(10) NOT NULL,
+    UpdatedAt DATETIME2 NOT NULL DEFAULT GETUTCDATE()
+);

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>TbdDevelop.CDC.Extensions</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.0.1</Version>
+        <Title>CDC Extensions</Title>
+        <Authors>Terry Burns-Dyson</Authors>
+        <RepositoryUrl>https://github.com/tbd-develop/sqlserver-cdc</RepositoryUrl>
+        <PackageTags>MsSQL</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.1.66"/>
+        <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.9"/>
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.9"/>
+    </ItemGroup>
+
+</Project>
