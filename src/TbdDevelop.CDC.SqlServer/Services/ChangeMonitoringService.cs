@@ -15,7 +15,7 @@ public class ChangeMonitoringService(
 {
     private readonly IServiceProvider _serviceProvider = factory.CreateScope().ServiceProvider;
 
-    private CdcRepository _repository = null!;
+    private ICdcRepository _repository = null!;
     private ICheckpointRepository _checkpoints = null!;
     private IOptions<MonitoringOptions> _options = null!;
     private IChangePublisher _changePublisher = null!;
@@ -98,7 +98,7 @@ public class ChangeMonitoringService(
     {
         logger.LogInformation("Initializing Monitoring Service");
 
-        _repository = _serviceProvider.GetRequiredService<CdcRepository>();
+        _repository = _serviceProvider.GetRequiredService<ICdcRepository>();
         _checkpoints = _serviceProvider.GetRequiredService<ICheckpointRepository>();
         _options = _serviceProvider.GetRequiredService<IOptions<MonitoringOptions>>();
         _changePublisher = _serviceProvider.GetRequiredService<IChangePublisher>();
